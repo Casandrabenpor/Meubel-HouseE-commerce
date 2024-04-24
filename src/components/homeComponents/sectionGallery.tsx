@@ -20,7 +20,7 @@ import Potty from '../../assets/home/image8.png';
 import { useTypedDispatch } from '../../app/store';
 
 export const SectionGallery = () => {
-  const dispatch = useTypedDispatch();
+  // const dispatch = useTypedDispatch();
 
   return (
     <div>

@@ -5,6 +5,7 @@ import { SectionOne } from '../components/homeComponents/sectionOne';
 import { SectionGallery } from '../components/homeComponents/sectionGallery';
 import { AsideCart } from '../components/homeComponents/aside';
 import { Carousel } from '../components/homeComponents/carousel';
+import { Gallery } from '../components/homeComponents/gallery';
 
 const HomePage: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage: React.FC = () => {
       <SectionOne />
       <SectionGallery />
       <Carousel />
+      <Gallery />
     </>
   );
 };

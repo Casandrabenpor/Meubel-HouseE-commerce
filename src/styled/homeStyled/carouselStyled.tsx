@@ -10,6 +10,7 @@ export const SectionCarousel = styled.section`
   gap: 2em;
   align-items: center;
   align-content: center;
+  margin-bottom: 2%;
 `;
 export const ButtonCarousel = styled.button`
   color: ${colors.yellow};
